@@ -7,6 +7,4 @@ require_relative "vendo_api/client"
 module VendoApi
   class Error < StandardError; end
   # Your code goes here...
-
-  VendoApi::Client.new.perform_request
 end
